@@ -38,5 +38,6 @@
 			</div><!-- /.container-fluid -->
 		</nav>
 		<?php echo "Hello World!"?>
+		<?php echo "Goodbye World!"?>
 	</body>
 </html>
