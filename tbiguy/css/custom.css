@@ -1,20 +1,58 @@
 @CHARSET "ISO-8859-1";
 
-/*Change this to edit the text of the nav bar */
-.navBarText > li > a {
-	color: #3377ff;
-	font-size: 18px;
+/* Variables for CSS file */
+:root {
+  --main-color: #3377ff;
 }
 
-.navImage {
-	width: 100vw;
-	padding-left: 0px;
+/* Header Tabs */
+.nav-tabs > li > a {
+	color: var(--main-color);
+    margin-right: 10px;
+    line-height: 1.42857143;
+    border: 1px solid;
+    font-size: 18px;
+    border-radius: 4px 4px 0 0;
+    border-bottom: 0px;
 }
 
+
+/* Header Tabs - Hover */
+.nav-tabs > li > a:hover {
+  border-color: var(--main-color);
+  background-color: #fff;
+  border-bottom: 0px;
+  color: #004ce6;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  border-color: var(--main-color);
+  background-color: #fff;
+  border-bottom: 0px;
+  color: #004ce6;
+}
+
+/* Header Bottom Border */
+.container-fluid {
+	border-bottom: 1px solid var(--main-color);
+}
+
+/* No Padding for element */
 .noPadding {
 	padding-left: 0px;
 	padding-right: 0px;
 	padding-top: 0px;
 	padding-bottom: 0px;	
 	
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  background-color: #f5f5f5;
 }
