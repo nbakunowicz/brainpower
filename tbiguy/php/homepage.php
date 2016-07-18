@@ -15,3 +15,4 @@
 		<?php echo "Hello World!"?>
 		<?php echo "Goodbye World!"?>
 	</body>
+<?php include 'footer.php'; ?>
