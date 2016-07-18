@@ -10,5 +10,3 @@
 		</div>
 	</footer>
 </html>
-
-

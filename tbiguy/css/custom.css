@@ -21,8 +21,8 @@
 .nav-tabs > li > a:hover {
   border-color: var(--main-color);
   background-color: #fff;
-  border-bottom: 0px;
   color: #004ce6;
+ 
 }
 
 .nav-tabs > li.active > a,
@@ -35,7 +35,7 @@
 }
 
 /* Header Bottom Border */
-.container-fluid {
+.nav-tabs {
 	border-bottom: 1px solid var(--main-color);
 }
 
@@ -48,11 +48,31 @@
 	
 }
 
-.footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 100px;
-  background-color: #f5f5f5;
+html{
+  position:relative; 
+  min-height: 100%;
+}
+/*Normalize html and body elements,this style is just good to have*/
+html,body{
+  margin:0;
+  padding:0;
+}
+.pageContentWrapper{
+  margin-bottom: 82px;/* Height of footer*/
+} 
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:82px;
+    background:#cce0ff;
+    border-top: 2px solid var(--main-color);
+;
+}
+
+.navbar-default {
+    border-color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
