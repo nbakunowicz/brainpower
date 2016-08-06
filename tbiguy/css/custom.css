@@ -65,7 +65,7 @@ html,body{
     bottom: 0;
     left: 0;
     right: 0;
-    height:82px;
+    height:70px;
     background:#cce0ff;
     border-top: 2px solid var(--main-color);
 ;
@@ -76,3 +76,13 @@ html,body{
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+
+#sidebar.affix {
+    position: fixed;
+    top:25px;
+    width:250px;
+  }
+  
+  #sidebar {
+  	margin-left: -75px;
+  }
