@@ -7,3 +7,4 @@
 <link rel='stylesheet' type='text/css' href='../css/bootstrap-theme.css'/>
 <link rel='stylesheet' type='text/css' href='../css/fontawesome.min.css'/>
 <link rel='stylesheet' type='text/css' href='../css/custom.css'/>
+<?php include 'commonFunctions.php'; ?>
