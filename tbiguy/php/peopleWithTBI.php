@@ -6,7 +6,7 @@
 <head>
     <!-- include the header.php -->
     <?php include './header.php'; ?>
-    <script type='text/javascript' src='../js/homepage.js'></script>
+    <script type='text/javascript' src='../js/peopleWithTBI.js'></script>
     <title>People With TBI</title>
 </head>
 
