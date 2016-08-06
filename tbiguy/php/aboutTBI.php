@@ -1,11 +1,12 @@
 <!-- aboutTBI.php -->
+<!DOCTYPE>
 <html>
 
 <!-- include the header.php -->
 <head>
     <!-- include the header.php -->
     <?php include './header.php'; ?>
-    <script type='text/javascript' src='../js/homepage.js'></script>
+    <script type='text/javascript' src='../js/aboutTBI.js'></script>
     <title>About TBI</title>
 </head>
 
@@ -43,5 +44,5 @@
     </div>
 </div>
 </body>
-<?php include 'footer.php'; ?>
+<?php include './footer.php'; ?>
 </html>

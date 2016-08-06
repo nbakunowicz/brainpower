@@ -1,11 +1,12 @@
 <!-- myBrainAndMe.php -->
+<!DOCTYPE>
 <html>
 
 <!-- include the header.php -->
 <head>
     <!-- include the header.php -->
     <?php include './header.php'; ?>
-    <script type='text/javascript' src='../js/homepage.js'></script>
+    <script type='text/javascript' src='../js/myBrainAndMe.js'></script>
     <title>My Brain And Me</title>
 </head>
 

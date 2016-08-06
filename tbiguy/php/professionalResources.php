@@ -1,11 +1,12 @@
 <!-- professionalResources.php -->
+<!DOCTYPE>
 <html>
 
 <!-- include the header.php -->
 <head>
     <!-- include the header.php -->
     <?php include './header.php'; ?>
-    <script type='text/javascript' src='../js/homepage.js'></script>
+    <script type='text/javascript' src='../js/professionalResources.js'></script>
     <title>Insert Web Page Name</title>
 </head>
 
