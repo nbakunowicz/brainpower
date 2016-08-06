@@ -14,7 +14,7 @@
 		//load the cached text into an array
 		$cachedText =  file_exists("textCache.ini") ? parse_ini_file("textCache.ini") : reCacheText();
 		
-		return $cachedText[$txtElementId];
+		return empty($cachedText[$txtElementId]) ? "No Data Found" : $cachedText[$txtElementId];
 	}
 	
 	function reCacheText() {
