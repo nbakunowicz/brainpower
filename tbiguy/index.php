@@ -4,7 +4,7 @@
 
 	<?php include 'php/header.php'; ?>
 	<script type='text/javascript' src='js/homepage.js'></script>
-	<title>Insert Web Page Name</title>
+	<title>The TBI Guy</title>
 </head>
 
 

@@ -1,7 +1,8 @@
 <body class="pageContentWrapper">
 	<nav class="navbar navbar-default">
-		<div class="col-xs-12 noPadding" style="height: 20vh">
-		</div>
+		<a href="../index.php">
+		<div class="col-xs-12 noPadding" style="height: 20vh"></div>
+		</a>
 		<div class="container-fullwidth">
 			<ul class="nav nav-tabs navBarText navBarTabBorder">
 				<li id="aboutTBITab" style="padding-left: 20px;">

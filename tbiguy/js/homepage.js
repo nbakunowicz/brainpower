@@ -1,8 +1,5 @@
 /**
- * This is the JS file for the aboutTBI.php page
+ * This is the JS file for the homepage.php page
  */
 
-//Makes this tab active in the navigation bar
-window.onload = function() {
-	highlightTab("aboutTBITab");
-};
+//No tab active in the navigation bar
