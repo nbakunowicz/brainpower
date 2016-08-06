@@ -1,4 +1,5 @@
 <!-- peopleWithTBI.php -->
+<!DOCTYPE>
 <html>
 
 <!-- include the header.php -->
