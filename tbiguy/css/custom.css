@@ -71,7 +71,10 @@ html, body {
     height:70px;
     background: #cce0ff;
     border-top: 2px solid var(--main-color);
-;
+}
+
+.editModeBackground {
+	background: #33ff99;
 }
 
 .navbar-default {
@@ -96,4 +99,18 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
+}
+
+.veritcalPad15 {
+	padding-top: 15px;
+	padding-bottom: 15px;	
+}
+i.onClickButton:hover {
+	color: var(--main-color);
+	cursor: hand;
+	text-shadow: 2px 2px 2px #ffffff;	
+}
+.hrefDisabled {
+   pointer-events: none;
+   cursor: default;
 }

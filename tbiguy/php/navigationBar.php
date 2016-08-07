@@ -17,7 +17,7 @@
                 <a href="../php/community.php"><?php echo getDisplayText(4); ?></a>
             </li>
             <li id="myBrainAndMeTab" class="dropdown">
-                <a href="../php/myBrainAndMe.php"><?php echo getDisplayText(5); ?></a>
+                <a href="../php/myBrainAndMe.php"><?php echo getDisplayText(6); ?></a>
             </li>
         </ul>
     </div>
