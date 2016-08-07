@@ -4,9 +4,19 @@
 
 var textCache = {};
 
+window.onresize = function(){
+	removeSmallNavBar();
+};
+
+function removeSmallNavBar() {
+	if ($("#isXs").css('display') != "block"){
+		$("#topNavBar").removeClass("in");
+	}
+}
+
 //This function adds "active" to an element's class
 function highlightTab(elementId){
-	$("#" + elementId).addClass("active");
+	$("." + elementId).addClass("active");
 }
 
 function editable(buttonEl){

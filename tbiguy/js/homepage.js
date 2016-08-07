@@ -2,4 +2,7 @@
  * This is the JS file for the homepage.php page
  */
 
-//No tab active in the navigation bar
+//Makes this tab active in the navigation bar, just for XS screen
+window.onload = function() {
+	highlightTab("homeTab");
+};

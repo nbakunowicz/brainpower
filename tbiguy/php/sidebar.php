@@ -1,12 +1,22 @@
 <!-- sidebar.php -->
 
-<div class="col-xs-2">
+<div class="col-xs-3">
 
-    <div class="list-group" id="sidebar">
-        <a href="#" class="list-group-item">Link 1</a>
-        <a href="#" class="list-group-item">Responsive</a>
-        <a href="#" class="list-group-item">Mobile First</a>
-        <a href="#" class="list-group-item">CSS 3</a>
-        <a href="#" class="list-group-item">HTML 5</a>
+	<div class="panel panel-default">
+    	<div class="panel-heading">
+    		Panel Header
+    	</div>
+      	<div class="panel-body">
+      		<div class="row horizontalPad5">
+      			Here is some content
+      		</div>
+      		<div class="row horizontalPad5">
+      			Here is some content
+      		</div>
+      		<div class="row horizontalPad5">
+      			Here is some content
+      		</div>   	
+      	</div>
     </div>
+
 </div>

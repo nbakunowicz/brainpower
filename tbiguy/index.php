@@ -16,10 +16,10 @@
 
 <body class="pageContentWrapper">
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <?php include './php/sidebar.php'; ?>
-        <div class="col-xs-10">
+        <div class="col-xs-9">
             <h2>About the TBI Guy's Neuroscience Hub</h2>
             Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
             dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
