@@ -6,11 +6,18 @@ var textCache = {};
 
 window.onresize = function(){
 	removeSmallNavBar();
+	removeSaveText();
 };
 
 function removeSmallNavBar() {
 	if ($("#isXs").css('display') != "block"){
 		$("#topNavBar").removeClass("in");
+	}
+}
+
+function removeSaveText() {
+	if ($("#isXs").css('display') == "block"){
+		document.getElementById("footerEdit").innerHTML = "";
 	}
 }
 
@@ -38,7 +45,7 @@ function editable(buttonEl){
 		else {
 			this.contentEditable = "true";
 			$( this.parentNode ).addClass("hrefDisabled");
-			buttonEl.innerHTML = " Save";
+			buttonEl.innerHTML = ($("#isXs").css('display') != "block") ? " Save" : "";
 			$(".footer").addClass("editModeBackground");
 			textCache[this.id] = this.innerHTML;
 		}
