@@ -1,5 +1,5 @@
 <footer class="footer">
-    <div class="container">
+    <div class="container-fluid">
     	<div class="col-sm-4 veritcalPad15">
 			<i data-toggle="tooltip" title="Edit Content"
 				class=" fa fa-edit fa-3x text-muted onClickButton" onclick="editable(this)"></i>
