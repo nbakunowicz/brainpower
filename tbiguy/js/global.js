@@ -45,6 +45,10 @@ function saveTextChanges(){
 		if (textCache[this.id] != this.innerHTML){
 			var saveItem = {};
 			
+			if (this.innerHTML == null || this.innerHTML == ""){
+				this.innerHTML = "[empty]"
+			}
+
 			saveItem[(this.id).replace("text", "")] = this.innerHTML;
 			changedText.push(saveItem);
 		}

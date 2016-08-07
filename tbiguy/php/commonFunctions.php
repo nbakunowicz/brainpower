@@ -11,7 +11,7 @@
 	
 	//returns text for an element Id
 	function getDisplayText($txtElementId){
-		$returnText = "No Data Found";
+		$returnText = "No Text Found";
 		
 		//load the cached text into an array if not already there
 		if (empty($GLOBALS['cachedText'])){
